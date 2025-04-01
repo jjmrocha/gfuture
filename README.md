@@ -1,0 +1,2 @@
+# gfuture
+Futures for GO
