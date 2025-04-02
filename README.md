@@ -28,7 +28,7 @@ import (
 	"context"
 	"fmt"
 	"time"
-	"gfuture"
+	"github.com/jjmrocha/gfuture"
 )
 
 func main() {
@@ -60,7 +60,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"gfuture"
+	"github.com/jjmrocha/gfuture"
 )
 
 func main() {
@@ -88,7 +88,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"gfuture"
+	"github.com/jjmrocha/gfuture"
 )
 
 func main() {
