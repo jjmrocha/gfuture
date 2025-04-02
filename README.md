@@ -14,7 +14,7 @@
 To use `gfuture`, simply import it into your Go project:
 
 ```go
-import "path/to/gfuture"
+import "github.com/jjmrocha/gfuture"
 ```
 
 ## Usage
