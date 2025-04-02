@@ -92,21 +92,21 @@ import (
 )
 
 func main() {
-  ctx := context.Background()
-  
+	ctx := context.Background()
+
 	// Create a Future using Async
 	future := gfuture.Async(func() (int, error) {
 		return 42, nil
-	}).Then(ctx, func(value int, err error) {
+	})
+
+	// Chain an action using Then
+	future.Then(ctx, func(value int, err error) {
 		if err != nil {
 			fmt.Println("Error:", err)
 		} else {
 			fmt.Println("Value:", value) // Output: Value: 42
 		}
 	})
-
-	// Wait to ensure the program doesn't exit prematurely
-	select {}
 }
 ```
 
